@@ -7,13 +7,9 @@ package ru.iteco.behavioral.command;
  */
 public enum OperationType {
 
-    /// <summary>
-    /// Сложение
-    /// </summary>
+    // Сложение
     ADD,
 
-    /// <summary>
-    /// Вычитание
-    /// </summary>
+    // Вычитание
     SUB
 }

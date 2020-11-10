@@ -21,6 +21,7 @@ public class Traveler {
     private void defineStrategy() {
         if (isApocalypse) {
             currentStrategy = new HouseStrategy();
+            return;
         }
 
         if (timeLeft < 8) {
